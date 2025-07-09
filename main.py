@@ -123,7 +123,7 @@ def 获取活动窗口名称() -> str:
     return 名称
 
 @register("astrbot_plugin_sysinfo_nickupdater", "周佳豪", "系统状态昵称", "1.0.0",
-          "https://www.bilibili.com/video/BV16p4y1w7U3/")
+          "https://github.com/zhoujiahao111/astrbot_plugin_sysinfo_nickupdater")
 class sysinfoNickupdater(Star):
     def __init__(self, context: Context, config: dict):
         super().__init__(context)
