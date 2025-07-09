@@ -1,0 +1,16 @@
+{
+  "active_window_monitoring": {
+      "description": "是否开启活动窗口检测功能 (开启后将读取用户当前正在使用的窗口名称)",
+      "type": "bool",
+      "default": true
+    },
+  "default_nickname": {
+    "description": "机器人的默认昵称, 必填",
+    "type": "string"
+  },
+  "time":{
+      "description": "昵称更新的间隔时间",
+      "type": "string",
+      "default": "3600"
+  }
+}

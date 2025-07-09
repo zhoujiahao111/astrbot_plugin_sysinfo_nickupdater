@@ -1,0 +1,6 @@
+name: astrbot_plugin_sysinfo_nickupdater
+desc: 信息露出! 定时获取主机CPU负载、当前活动的窗口进程名(可关闭)，以上获取的信息将动态更新到机器人所有群的群名片,初次使用需要修改配置文件
+help: /刷新昵称状态 手动刷新一次 # 插件的帮助信息
+version: v1.0.0 # 插件版本号。格式：v1.1.1 或者 v1.1
+author: 周佳豪,deepseek # 作者
+repo: https://www.bilibili.com/video/BV16p4y1w7U3/ # 插件的仓库地址
