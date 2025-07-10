@@ -182,7 +182,7 @@ class sysinfoNickupdater(Star):
             self.默认昵称,
             f"🧠{cpu负载}",
             f"🖥️{活动窗口名称}",
-            datetime.now().strftime(("%#m-%#d %#H:%#M"))
+            "🔄"+datetime.now().strftime(("%#m-%#d %#H:%#M"))
         ])
 
         for id in await self.获取群列表():
