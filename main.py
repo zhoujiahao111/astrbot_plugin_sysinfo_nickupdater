@@ -81,7 +81,7 @@ process_dict = {
 }
 
 def 获取cpu负载() -> str:
-    percent = psutil.cpu_percent(interval=0.1)
+    percent = (psutil.cpu_percent(interval=0.1) + psutil.cpu_percent(interval=0.1)) / 2.0
     return f"{int(percent)}%"
 
 def 获取活动窗口名称() -> str:
